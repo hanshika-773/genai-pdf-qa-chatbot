@@ -84,6 +84,4 @@ if __name__ == "__main__":
 ![image](https://github.com/user-attachments/assets/c5c513ae-efbc-40d8-a1e2-d17cfa59a913)
 
 ### RESULT:
-**Prompt:** A structured prompt template was designed to pass the document content and user query to the language model.
-**Model:** OpenAI's GPT model was used to process the input data and provide an answer based on the document's content.
-**Output Parsing:** The model's output is returned as the answer to the query, ensuring that it provides relevant responses based on the content extracted from the PDF.
+This code loads a PDF, creates a vector store from its text, sets up a chatbot using a HuggingFace model, and answers a query about the course title.
